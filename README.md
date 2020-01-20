@@ -16,7 +16,7 @@ Drop "packages/simpleanimations" to your packages in your server root folder.
 
 ## Keys for animations
 
-F5 - Open animation menu
+F5 - Open animation menu |
 F6 - Cancel animation
 
 H - Hands up / behind the head
@@ -25,8 +25,8 @@ H - Hands up / behind the head
 
 Change in client_packages/simpleanimations.js at line 
 
-478 - 0x74 for menu opening
-489 - 0x75 for cancel animation
+478 - 0x74 for menu opening |
+489 - 0x75 for cancel animation |
 493 - 0x48 for handsup animation
 
 
