@@ -1,4 +1,4 @@
-# RAGEMPSimpleAnimations
+# RAGEMP-SimpleAnimations
 This is a really basic animation script for your resource.
 
 ## Requirements
