@@ -34,4 +34,4 @@ Change in client_packages/simpleanimations.js at line
 https://docs.microsoft.com/de-de/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
 
 
-For questions or help DM me or add me on Discord: XCRON#0001
+For questions or help DM me on rage forum: https://rage.mp/profile/90566-xcron/
