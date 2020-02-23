@@ -10,7 +10,7 @@ const ItemsCollection = NativeUI.ItemsCollection;
 const Color = NativeUI.Color;
 const ListItem = NativeUI.ListItem;
 
-const MenuPoint = new Point(50, 50);
+const MenuPoint = new Point(1480, 250);
 
 let uiMenu = []
 

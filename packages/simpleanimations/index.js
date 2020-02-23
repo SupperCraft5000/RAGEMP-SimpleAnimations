@@ -12,7 +12,7 @@ mp.events.add("server:animations:facial", (player, animName, animDict) => {
 	player.playFacialAnim(animName, animDict);
 });
 
-mp.events.add("server:stopAnim", (player) => {
+mp.events.add("simpleaim:stopAnim", (player) => {
 	if(!mp.players.exists(player)) return;
 	if(player.vehicle) return;
 	player.stopAnimation();

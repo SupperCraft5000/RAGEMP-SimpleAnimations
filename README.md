@@ -16,8 +16,8 @@ Drop "packages/simpleanimations" to your packages in your server root folder.
 
 ## Keys for animations
 
-F5 - Open animation menu |
-F6 - Cancel animation
+F9 - Open animation menu |
+F10 - Cancel animation
 
 H - Hands up / behind the head
 
