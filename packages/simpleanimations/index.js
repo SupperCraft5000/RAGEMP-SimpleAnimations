@@ -1,4 +1,4 @@
-mp.events.add("playAnimationEvent", (player, animGroup, animType, speed, moveNumber, milSec) => {
+mp.events.add("simpleaim:playanim", (player, animGroup, animType, speed, moveNumber, milSec) => {
 	if(!mp.players.exists(player)) return;
 	if(player.vehicle) return;
 	player.playAnimation(animGroup, animType, speed, moveNumber);
@@ -12,7 +12,7 @@ mp.events.add("server:animations:facial", (player, animName, animDict) => {
 	player.playFacialAnim(animName, animDict);
 });
 
-mp.events.add("stopAnimation", (player) => {
+mp.events.add("server:stopAnim", (player) => {
 	if(!mp.players.exists(player)) return;
 	if(player.vehicle) return;
 	player.stopAnimation();

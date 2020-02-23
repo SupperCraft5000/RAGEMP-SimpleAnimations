@@ -170,22 +170,22 @@ ui_sitAnims.MenuClose.on(() => {
 
 ui_sitAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Sitzen (Männl.)') {
-        mp.events.callRemote("playAnimationEvent", 'anim@heists@fleeca_bank@ig_7_jetski_owner', 'owner_idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim", 'anim@heists@fleeca_bank@ig_7_jetski_owner', 'owner_idle', 1, 33);
     } else
     if (item.Text == 'Sitzen (Weibl.)') {
-        mp.events.callRemote("playAnimationEvent", 'amb@lo_res_idles@', 'world_human_picnic_female_lo_res_base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim", 'amb@lo_res_idles@', 'world_human_picnic_female_lo_res_base', 1, 33);
     } else
     if (item.Text == 'Sitzen (Stuhl)') {
-        mp.events.callRemote("playAnimationEvent",  'switch@michael@sitting', 'idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'switch@michael@sitting', 'idle', 1, 33);
     } else
     if (item.Text == 'Sitzen (Stuhl) 2') {
-        mp.events.callRemote("playAnimationEvent",  'missfam2leadinoutmcs3', 'onboat_leadin_pornguy_a', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'missfam2leadinoutmcs3', 'onboat_leadin_pornguy_a', 1, 33);
     } else
     if (item.Text == 'Sitzen (Stuhl Weibl.)') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@reunited@ig_10', 'base_amanda', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@reunited@ig_10', 'base_amanda', 1, 33);
     } else 
     if (item.Text == 'Weinerlich Sitzen') {
-        mp.events.callRemote("playAnimationEvent",  'switch@trevor@floyd_crying', 'console_end_loop_floyd', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'switch@trevor@floyd_crying', 'console_end_loop_floyd', 1, 33);
     } 
 });
 
@@ -195,25 +195,25 @@ ui_lyingAnims.MenuClose.on(() => {
 
 ui_lyingAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Auf dem Rücken liegen') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_sunbathe@male@back@base', 'base', 1, 35);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_sunbathe@male@back@base', 'base', 1, 35);
     } else
     if (item.Text == 'Auf dem Bauch liegen (Weibl.)') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_sunbathe@male@front@base', 'base', 1, 35);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_sunbathe@male@front@base', 'base', 1, 35);
     } else
     if (item.Text == 'Auf dem Bauch liegen (Männl.)') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_sunbathe@male@front@idle_a', 'idle', 1, 35);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_sunbathe@male@front@idle_a', 'idle', 1, 35);
     } else
     if (item.Text == 'Seitlich liegen') {
-        mp.events.callRemote("playAnimationEvent",  'amb@lo_res_idles@', 'world_human_bum_slumped_right_lo_res_base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@lo_res_idles@', 'world_human_bum_slumped_right_lo_res_base', 1, 33);
     } else
     if (item.Text == 'Betrunken liegen') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@amanda@drunk@idle_a', 'idle_pinot', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@amanda@drunk@idle_a', 'idle_pinot', 1, 33);
     } else
     if (item.Text == 'Liegen (Ohnmacht)') {
-        mp.events.callRemote("playAnimationEvent",  'misssolomon_5@end', 'dead_black_ops', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'misssolomon_5@end', 'dead_black_ops', 1, 33);
     } else
     if (item.Text == 'Schlafen') {
-        mp.events.callRemote("playAnimationEvent",  'missfinale_c1@', 'lying_dead_player0', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'missfinale_c1@', 'lying_dead_player0', 1, 33);
     }
 });
 
@@ -223,31 +223,31 @@ ui_standAnims.MenuClose.on(() => {
 
 ui_standAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Arme Verschränken (Männl.)') {
-        mp.events.callRemote("playAnimationEvent",  'anim@heists@heist_corona@single_team', 'single_team_loop_boss', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@heists@heist_corona@single_team', 'single_team_loop_boss', 1, 49);
     } else
     if (item.Text == 'Arme Verschränken (Weibl.)') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_hang_out_street@female_arms_crossed@base', 'base', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_hang_out_street@female_arms_crossed@base', 'base', 1, 49);
     } else
     if (item.Text == 'Security') {
-        mp.events.callRemote("playAnimationEvent",  'mini@strip_club@idles@bouncer@idle_a', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'mini@strip_club@idles@bouncer@idle_a', 'idle_a', 1, 49);
     } else
     if (item.Text == 'Anlehnen') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_leaning@male@wall@back@foot_up@base', 'base', 1, 35);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_leaning@male@wall@back@foot_up@base', 'base', 1, 35);
     } else
     if (item.Text == 'Anlehnen 2') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_leaning@male@wall@back@legs_crossed@idle_a', 'idle_c', 1, 35);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_leaning@male@wall@back@legs_crossed@idle_a', 'idle_c', 1, 35);
     } else
     if (item.Text == 'Arrogant') {
-        mp.events.callRemote("playAnimationEvent",  'missmic_3_ext@leadin@mic_3_ext', '_leadin_trevor', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'missmic_3_ext@leadin@mic_3_ext', '_leadin_trevor', 1, 49);
     } else
     if (item.Text == 'Eingebildet') {
-        mp.events.callRemote("playAnimationEvent",  'mp_move@prostitute@m@hooker', 'idle', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'mp_move@prostitute@m@hooker', 'idle', 1, 49);
     } else
     if (item.Text == 'Salutieren') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intuppersalute', 'idle_a', 1, 49, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intuppersalute', 'idle_a', 1, 49, -1);
     } else
     if (item.Text == 'Depressiv') {
-        mp.events.callRemote("playAnimationEvent", 'amb@world_human_bum_standing@depressed@idle_a', 'idle_c', 1, 49);
+        mp.events.callRemote("simpleaim:playanim", 'amb@world_human_bum_standing@depressed@idle_a', 'idle_c', 1, 49);
     }
 });
 
@@ -257,16 +257,16 @@ ui_kneeAnims.MenuClose.on(() => {
 
 ui_kneeAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Knien') {
-        mp.events.callRemote("playAnimationEvent",  'amb@medic@standing@kneel@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@medic@standing@kneel@base', 'base', 1, 33);
     } else 
     if (item.Text == 'Auf die Knie') {
-        mp.events.callRemote("playAnimationEvent",  'missheist_jewel', 'manageress_kneel_loop', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'missheist_jewel', 'manageress_kneel_loop', 1, 33);
     } else
     if (item.Text == 'Auf die Knie 2') {
-        mp.events.callRemote("playAnimationEvent",  'random@arrests', 'kneeling_arrest_idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'random@arrests', 'kneeling_arrest_idle', 1, 33);
     } else
     if (item.Text == 'Verzweifelt Knien') {
-        mp.events.callRemote("playAnimationEvent",  'missfra2', 'lamar_base_idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'missfra2', 'lamar_base_idle', 1, 33);
     }
 });
 
@@ -276,91 +276,91 @@ ui_danceAnims.MenuClose.on(() => {
 
 ui_danceAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Strip 1') {
-        mp.events.callRemote("playAnimationEvent",  'oddjobs@assassinate@multi@yachttarget@lapdance', 'yacht_ld_f', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'oddjobs@assassinate@multi@yachttarget@lapdance', 'yacht_ld_f', 1, 33);
     } else
     if (item.Text == 'Strip 2') {
-        mp.events.callRemote("playAnimationEvent",  'mini@strip_club@private_dance@idle', 'priv_dance_idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'mini@strip_club@private_dance@idle', 'priv_dance_idle', 1, 33);
     } else
     if (item.Text == 'Strip 3') {
-        mp.events.callRemote("playAnimationEvent",  'mini@strip_club@private_dance@part1', 'priv_dance_p1', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'mini@strip_club@private_dance@part1', 'priv_dance_p1', 1, 33);
     } else
     if (item.Text == 'Strip 4') {
-        mp.events.callRemote("playAnimationEvent",  'mini@strip_club@private_dance@part2', 'priv_dance_p2', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'mini@strip_club@private_dance@part2', 'priv_dance_p2', 1, 33);
     } else
     if (item.Text == 'Strip 5') {
-        mp.events.callRemote("playAnimationEvent",  'mini@strip_club@private_dance@part3', 'priv_dance_p3', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'mini@strip_club@private_dance@part3', 'priv_dance_p3', 1, 33);
     } else 
     if (item.Text == 'Strip 6') {
-        mp.events.callRemote("playAnimationEvent",  'mp_am_stripper', 'lap_dance_girl', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'mp_am_stripper', 'lap_dance_girl', 1, 33);
     } else
     if (item.Text == 'Ghetto') {
-        mp.events.callRemote("playAnimationEvent",  'missfbi3_sniping', 'dance_m_default', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'missfbi3_sniping', 'dance_m_default', 1, 33);
     } else
     if (item.Text == 'Tao 1') {
-        mp.events.callRemote("playAnimationEvent",  'misschinese2_crystalmazemcs1_cs', 'dance_loop_tao', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'misschinese2_crystalmazemcs1_cs', 'dance_loop_tao', 1, 33);
     } else
     if (item.Text == 'Tao 2') {
-        mp.events.callRemote("playAnimationEvent",  'misschinese2_crystalmazemcs1_ig', 'dance_loop_tao', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'misschinese2_crystalmazemcs1_ig', 'dance_loop_tao', 1, 33);
     } else
     if (item.Text == 'Stepptanz 1') {
-        mp.events.callRemote("playAnimationEvent",  'special_ped@mountain_dancer@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'special_ped@mountain_dancer@base', 'base', 1, 33);
     } else
     if (item.Text == 'Po wackeln') {
-        mp.events.callRemote("playAnimationEvent",  'switch@trevor@mocks_lapdance', '001443_01_trvs_28_idle_stripper', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'switch@trevor@mocks_lapdance', '001443_01_trvs_28_idle_stripper', 1, 33);
     } else
     if (item.Text == 'Po wackeln 2') {
-        mp.events.callRemote("playAnimationEvent",  'switch@trevor@mocks_lapdance', '001443_01_trvs_28_exit_stripper', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'switch@trevor@mocks_lapdance', '001443_01_trvs_28_exit_stripper', 1, 33);
     } else
     if (item.Text == 'Zumba 1') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@tracy@ig_5@idle_a', 'idle_a', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@tracy@ig_5@idle_a', 'idle_a', 1, 33);
     } else
     if (item.Text == 'Zumba 2') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@tracy@ig_5@idle_a', 'idle_b', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@tracy@ig_5@idle_a', 'idle_b', 1, 33);
     } else
     if (item.Text == 'Zumba 3') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@tracy@ig_5@idle_a', 'idle_c', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@tracy@ig_5@idle_a', 'idle_c', 1, 33);
     } else
     if (item.Text == 'Zumba 4') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@tracy@ig_5@idle_b', 'idle_d', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@tracy@ig_5@idle_b', 'idle_d', 1, 33);
     } else 
     if (item.Text == 'Zumba 5') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@tracy@ig_5@idle_b', 'idle_e', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@tracy@ig_5@idle_b', 'idle_e', 1, 33);
     } else
     if (item.Text == 'Geiles lied') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_cheering@female_b', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_cheering@female_b', 'base', 1, 33);
     } else
     if (item.Text == 'Feminines Tanzen') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_jog_standing@female@idle_a', 'idle_a', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_jog_standing@female@idle_a', 'idle_a', 1, 33);
     } else
     if (item.Text == 'Tanzfaul') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_partying@female@partying_beer@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_partying@female@partying_beer@base', 'base', 1, 33);
     } else
     if (item.Text == 'Luftgitarre') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intcelebrationfemale@air_guitar', 'air_guitar', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intcelebrationfemale@air_guitar', 'air_guitar', 1, 33);
     } else
     if (item.Text == 'Banging Tunes') { 
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@banging_tunes', 'banging_tunes', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@banging_tunes', 'banging_tunes', 1, 47, -1);
     } else
     if (item.Text == 'Onkel Disco') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@uncle_disco', 'uncle_disco', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@uncle_disco', 'uncle_disco', 1, 47, -1);
     } else
     if (item.Text == 'Der Fisch') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@find_the_fish', 'find_the_fish', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@find_the_fish', 'find_the_fish', 1, 47, -1);
     } else
     if (item.Text == 'Herzrasen') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@heart_pumping', 'heart_pumping', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@heart_pumping', 'heart_pumping', 1, 47, -1);
     } else 
     if (item.Text == 'Snap') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@oh_snap', 'oh_snap', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@oh_snap', 'oh_snap', 1, 47, -1);
     } else
     if (item.Text == 'Raise') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@raise_the_roof', 'raise_the_roof', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@raise_the_roof', 'raise_the_roof', 1, 47, -1);
     } else
     if (item.Text == 'Salsa') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@salsa_roll', 'salsa_roll', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@salsa_roll', 'salsa_roll', 1, 47, -1);
     } else
     if (item.Text == 'Cats Cradle') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@cats_cradle', 'cats_cradle', 1, 47, -1);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@cats_cradle', 'cats_cradle', 1, 47, -1);
     } 
 });
 
@@ -370,37 +370,37 @@ ui_sportAnims.MenuClose.on(() => {
 
 ui_sportAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Yoga 1') {
-        mp.events.callRemote("playAnimationEvent",  'rcmepsilonism3', 'ep_3_rcm_marnie_meditating', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'rcmepsilonism3', 'ep_3_rcm_marnie_meditating', 1, 33);
     } else
     if (item.Text == 'Yoga 2') {
-        mp.events.callRemote("playAnimationEvent",  'rcmepsilonism3', 'base_loop', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'rcmepsilonism3', 'base_loop', 1, 33);
     } else
     if (item.Text == 'Yoga 3') {
-        mp.events.callRemote("playAnimationEvent",  'rcmfanatic1maryann_stretchidle_b', 'idle_e', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'rcmfanatic1maryann_stretchidle_b', 'idle_e', 1, 33);
     } else
     if (item.Text == 'Yoga 4') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@amanda@ig_4', 'ig_4_idle', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@amanda@ig_4', 'ig_4_idle', 1, 33);
     } else
     if (item.Text == 'Yoga 5') {
-        mp.events.callRemote("playAnimationEvent", 'amb@world_human_yoga@female@base', 'base_c', 1, 33);
+        mp.events.callRemote("simpleaim:playanim", 'amb@world_human_yoga@female@base', 'base_c', 1, 33);
     }
     if (item.Text == 'Liegestütze 1') {
-        mp.events.callRemote("playAnimationEvent",  'rcmfanatic3', 'ef_3_rcm_loop_maryann', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'rcmfanatic3', 'ef_3_rcm_loop_maryann', 1, 33);
     } else
     if (item.Text == 'Liegestütze 2') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_push_ups@male@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_push_ups@male@base', 'base', 1, 33);
     } else
     if (item.Text == 'Situps') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_sit_ups@male@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_sit_ups@male@base', 'base', 1, 33);
     } else
     if (item.Text == 'Flex') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_muscle_flex@arms_at_side@base', 'base', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_muscle_flex@arms_at_side@base', 'base', 1, 49);
     } else
     if (item.Text == 'Flex 2') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_muscle_flex@arms_in_front@idle_a', 'idle_b', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_muscle_flex@arms_in_front@idle_a', 'idle_b', 1, 49);
     } else
     if (item.Text == 'Klimmzüge') {
-        mp.events.callRemote("playAnimationEvent", 'amb@prop_human_muscle_chin_ups@male@base', 'base', 1, 49);
+        mp.events.callRemote("simpleaim:playanim", 'amb@prop_human_muscle_chin_ups@male@base', 'base', 1, 49);
     }
 });
 
@@ -410,13 +410,13 @@ ui_jobAnims.MenuClose.on(() => {
 
 ui_jobAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Begutachten') {
-        mp.events.callRemote("playAnimationEvent",  'oddjobs@taxi@gyn@', 'idle_b_ped', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'oddjobs@taxi@gyn@', 'idle_b_ped', 1, 33);
     } else
     if (item.Text == 'Reparieren') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_vehicle_mechanic@male@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_vehicle_mechanic@male@base', 'base', 1, 33);
     } else
     if (item.Text == 'Putzen') {
-        mp.events.callRemote("playAnimationEvent",  'timetable@maid@cleaning_window@base', 'base', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'timetable@maid@cleaning_window@base', 'base', 1, 33);
     }
 });
 
@@ -426,43 +426,43 @@ ui_otherAnims.MenuClose.on(() => {
 
 ui_otherAnims.ItemSelect.on((item, index, value) => {
     if (item.Text == 'Pfeifen') {
-        mp.events.callRemote("playAnimationEvent",  'rcmnigel1c', 'hailing_whistle_waive_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'rcmnigel1c', 'hailing_whistle_waive_a', 1, 49);
     } else
     if (item.Text == 'Ironisches Klatschen') {
-        mp.events.callRemote("playAnimationEvent",  'amb@world_human_cheering@male_e', 'base', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'amb@world_human_cheering@male_e', 'base', 1, 49);
     } else
     if (item.Text == 'Peace') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intincarpeacestd@ds@', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intincarpeacestd@ds@', 'idle_a', 1, 49);
     } else
     if (item.Text == '2 Bier') {
-        mp.events.callRemote("playAnimationEvent",  'amb@code_human_in_car_mp_actions@v_sign@bodhi@rps@base', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'amb@code_human_in_car_mp_actions@v_sign@bodhi@rps@base', 'idle_a', 1, 49);
     } else
     if (item.Text == 'Doppelpeace') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intcelebrationmale@peace', 'peace', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intcelebrationmale@peace', 'peace', 1, 49);
     } else
     if (item.Text == 'Luftküssen') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intcelebrationfemale@blow_kiss', 'blow_kiss', 1, 33);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intcelebrationfemale@blow_kiss', 'blow_kiss', 1, 33);
     } else
     if (item.Text == 'Fuck you') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intselfiethe_bird', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intselfiethe_bird', 'idle_a', 1, 49);
     } else
     if (item.Text == 'Daumen hoch') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intupperthumbs_up', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intupperthumbs_up', 'idle_a', 1, 49);
     } else
     if (item.Text == 'Winken') {
-        mp.events.callRemote("playAnimationEvent",  'anim@mp_player_intupperwave', 'idle_a', 1, 49);
+        mp.events.callRemote("simpleaim:playanim",  'anim@mp_player_intupperwave', 'idle_a', 1, 49);
     } else
     if (item.Text == 'Facepalm') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intupperface_palm', 'idle_a', 1, 49, 7000);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intupperface_palm', 'idle_a', 1, 49, 7000);
     } else
     if (item.Text == 'Ausrasten') {
-        mp.events.callRemote("playAnimationEvent", 'anim@mp_player_intcelebrationmale@freakout', 'freakout', 1, 49);
+        mp.events.callRemote("simpleaim:playanim", 'anim@mp_player_intcelebrationmale@freakout', 'freakout', 1, 49);
     } else
     if (item.Text == 'Pinkeln') {
-        mp.events.callRemote("playAnimationEvent", 'missbigscore1switch_trevor_piss', 'piss_loop', -1, 33);
+        mp.events.callRemote("simpleaim:playanim", 'missbigscore1switch_trevor_piss', 'piss_loop', -1, 33);
     } else
     if (item.Text == 'Notieren') {
-        mp.events.callRemote("playAnimationEvent", 'amb@world_human_clipboard@male@idle_a', 'idle_c', 1, 49);
+        mp.events.callRemote("simpleaim:playanim", 'amb@world_human_clipboard@male@idle_a', 'idle_c', 1, 49);
     }
 });
 
@@ -475,7 +475,7 @@ ui_Main.BindMenuToItem(ui_sportAnims, sport);
 ui_Main.BindMenuToItem(ui_jobAnims, jobs);
 ui_Main.BindMenuToItem(ui_otherAnims, sonstiges);
 
-mp.keys.bind(0x74, false, () => {
+mp.keys.bind(0x78, true, () => {
     if (ui_Main.Visible | ui_sitAnims.Visible | ui_lyingAnims.Visible |
         ui_standAnims.Visible | ui_kneeAnims.Visible |
         ui_danceAnims.Visible | ui_sportAnims.Visible | ui_jobAnims.Visible |
@@ -486,10 +486,10 @@ mp.keys.bind(0x74, false, () => {
         }
 });
 
-mp.keys.bind(0x75, false, () => {
-  mp.events.callRemote('stopAnimation', player);
+mp.keys.bind(0x79, true, () => {
+    mp.events.callRemote("simpleaim:stopAnim");
 });
 
-mp.keys.bind(0x48, false, () => {
-    mp.events.callRemote("playAnimationEvent", 'busted', 'idle_a', 1, 49);
+mp.keys.bind(0x48, true, () => {
+    mp.events.callRemote("simpleaim:playanim", 'busted', 'idle_a', 1, 49);
 });
